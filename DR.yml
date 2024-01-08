@@ -1,0 +1,9 @@
+name: DR
+channels:
+  - fastchan
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - fastai
+  - albumentations
