@@ -7,3 +7,9 @@ dependencies:
   - python=3.8
   - fastai
   - albumentations
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - numoy
+  - xarray
+  
