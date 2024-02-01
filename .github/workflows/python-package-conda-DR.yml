@@ -12,9 +12,13 @@ jobs:
         python-version: [3.7]
     steps:
       - uses: actions/checkout@v2
-      - name: install mamba
-        uses: mamba-org/provision-with-micromamba@main
+      - name: intall mamba
+        uses: conda-incubator/setup-miniconda@v2
         with:
+          auto-update-conda: false
+          python-version: ${{ matrix.python-version }}
+          use-only-tar-bz2: true
+          miniforge-version: latest
           environment-file: DR.yml
           environment-name: DR
       - name: Install test packages

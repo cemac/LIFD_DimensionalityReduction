@@ -13,22 +13,29 @@
 
 [![LIFD_ENV_ML_NOTEBOOKS](https://github.com/cemac/LIFD_DimensionalityReduction/actions/workflows/python-package-conda-DR.yml/badge.svg)](https://github.com/cemac/LIFD_DimensionalityReduction/actions/workflows/python-package-conda-DR.yml)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cemac/LIFD_DimensionalityReduction/HEAD?labpath=DimensionalityReduction.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cemac/LIFD_DimensionalityReduction/blob/main/dimensionality_reduction_colab.ipynb)
 
-This notebook explores
+
+This Jupyter notebook is based off Johnathan Coney's work on Identifying and characterising trapped lee waves using dimensionality reduction. This work is outline in [Coney et al, 2023](https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/qj.4592). This notebook will go through the basics of [Principal Component Analysis](https://www.billconnelly.net/?p=697) and Dimensionality Reduction methods using some toy code from a kaggle tutorial using the MNIST dataset and then apply those methods to an Earth Science application based on Johnathan Coney's Work.
 
 ## Recommended Background Reading
+
+
+This Jupyter notebook is based off Johnathan Coney's work on Identifying and characterising trapped lee waves using dimensionality reduction. This work is outline in [Coney et al, 2023](https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/qj.4592). This notebook will go through the basics of [Principal Component Analysis](https://www.billconnelly.net/?p=697) and Dimensionality Reduction methods using some toy code from a kaggle tutorial using the MNIST dataset and then apply those methods to an Earth Science application based on Johnathan Coney's Work.
 
 
 ## Quick look
 
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cemac/LIFD_DimensionalityReduction/blob/main/dimensionality_reduction_colab.ipynb)
+
 
 
 ### Quick start
 
-**Binder**
+**Binder and Colab buttons**
 
-You can run this notebook on your personal laptop or via the [binder](https://mybinder.readthedocs.io/en/latest/index.html#what-is-binder) link above (please allow a few minutes for set up).
+Will launch this tutorial in binder (CPU) or Google CoLab (GPU)
 
 **Running Locally**
 
