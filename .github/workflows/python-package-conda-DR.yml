@@ -1,7 +1,5 @@
 name: Python Package using Conda
-on:
-  schedule:
-  - cron: "0 0 1 * *"
+on: [push]
 
 jobs:
   test:
