@@ -10,6 +10,6 @@ dependencies:
   - pandas
   - matplotlib
   - scikit-learn
-  - numoy
+  - numpy
   - xarray
   
