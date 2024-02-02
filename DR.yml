@@ -1,15 +1,15 @@
 name: DR
 channels:
-  - fastchan
+  - fastai
   - defaults
   - conda-forge
 dependencies:
   - python=3.8
+  - pandas
+  - numpy
+  - matplotlib
+  - xarray
+  - scikit-learn
   - fastai
   - albumentations
-  - pandas
-  - matplotlib
-  - scikit-learn
-  - numpy
-  - xarray
   
