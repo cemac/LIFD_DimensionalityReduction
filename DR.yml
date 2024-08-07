@@ -12,4 +12,4 @@ dependencies:
   - scikit-learn
   - fastai
   - albumentations
-  
+  - notebook
