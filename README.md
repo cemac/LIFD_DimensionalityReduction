@@ -13,33 +13,23 @@
 
 [![LIFD_ENV_ML_NOTEBOOKS](https://github.com/cemac/LIFD_DimensionalityReduction/actions/workflows/python-package-conda-DR.yml/badge.svg)](https://github.com/cemac/LIFD_DimensionalityReduction/actions/workflows/python-package-conda-DR.yml)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cemac/LIFD_DimensionalityReduction/HEAD?labpath=DimensionalityReduction.ipynb)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cemac/LIFD_DimensionalityReduction/blob/main/dimensionality_reduction_colab.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cemac/LIFD_DimensionalityReduction/blob/main/LIFD_dimensionality_reduction_colab.ipynb)
 
 
-This Jupyter notebook is based off Johnathan Coney's work on Identifying and characterising trapped lee waves using dimensionality reduction. This work is outline in [Coney et al, 2023](https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/qj.4592). This notebook will go through the basics of [Principal Component Analysis](https://www.billconnelly.net/?p=697) and Dimensionality Reduction methods using some toy code from a kaggle tutorial using the MNIST dataset and then apply those methods to an Earth Science application based on Johnathan Coney's Work.
-
-## Recommended Background Reading
-
-
-This Jupyter notebook is based off Johnathan Coney's work on Identifying and characterising trapped lee waves using dimensionality reduction. This work is outline in [Coney et al, 2023](https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/qj.4592). This notebook will go through the basics of [Principal Component Analysis](https://www.billconnelly.net/?p=697) and Dimensionality Reduction methods using some toy code from a kaggle tutorial using the MNIST dataset and then apply those methods to an Earth Science application based on Johnathan Coney's Work.
+This Jupyter notebook is based on Jonathan Coney's work on identifying and characterising trapped lee waves using dimensionality reduction. The work is outlined in [Coney et al., 2023](https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/qj.4592). This notebook will go through the basics of [Principal Component Analysis](https://www.billconnelly.net/?p=697) and Dimensionality Reduction methods using some toy code from a Kaggle tutorial and the MNIST dataset, and then apply those methods to an Earth Science application based on Jonathan Coney's work.
 
 
 ## Quick look
-
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cemac/LIFD_DimensionalityReduction/blob/main/dimensionality_reduction_colab.ipynb)
-
-
 
 ### Quick start
 
 **Binder and Colab buttons**
 
-Will launch this tutorial in binder (CPU) or Google CoLab (GPU)
+Will launch this tutorial in binder (CPU) or Google Colab (GPU)
 
 **Running Locally**
 
-If you're already familiar with git, anaconda and virtual environments the environment you need to create is found in DR.yml and the code below to install activate and launch the notebook. The .yml file has been tested on the latest linux, macOS and windows operating systems.
+If you're already familiar with git, Anaconda and virtual environments, the environment you need to create is found in DR.yml and the code below will install, activate and launch the notebook. The .yml file has been tested on the latest Linux, macOS and Windows operating systems.
 
 ```bash
 git clone git@github.com:cemac/LIFD_DimensionalityReduction.git
@@ -51,7 +41,7 @@ jupyter-notebook
 
 ## Installation and Requirements
 
-This notebook is designed to run on a laptop with no special hardware required therefore recommended to do a local installation as outlined in the repository [howtorun](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/howtorun.md) and [jupyter_notebooks](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/jupyter_notebooks.md) sections.
+This notebook is designed to run on a laptop with no special hardware required. Therefore, it is recommended to do a local installation as outlined in the repository [howtorun](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/howtorun.md) and [jupyter_notebooks](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/jupyter_notebooks.md) sections.
 
 
 # Licence information #
@@ -60,4 +50,4 @@ This notebook is designed to run on a laptop with no special hardware required t
 
 ## Acknowledgements
 
-Thanks to Jonathan Coney for the basis of this tutorial. This tutorial is part of the [LIFD ENV ML NOTEBOOKS](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS) please refer to for full acknowledgements.
+Thanks to Jonathan Coney for the basis of this tutorial. This tutorial is part of the [LIFD ENV ML NOTEBOOKS](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS) series. Please refer to the parent repository for full acknowledgements.
